@@ -14,7 +14,7 @@ config.game.isPaused = true;
 //Screen
 config.screen.width = 400;
 config.screen.height = 700;
-config.screen.tileCapacity.forWidth = 4;
+config.screen.tileCapacity.forWidth = 5;
 config.screen.tileCapacity.forHeight = 5;
 
 //Tile
