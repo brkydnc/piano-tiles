@@ -18,7 +18,7 @@ function generateArray() {
 };
 
 function setup(){
-    //+1 cause of tiLe strokes
+    //+1 cause of tile strokes
     createCanvas(config.screen.width+1,config.screen.height+1);
 };
 
