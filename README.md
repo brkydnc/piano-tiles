@@ -1,10 +1,10 @@
-# piano-tiles
+# Unofficial Piano Tiles 
 Piano tiles with p5.js
 
-### Warn
+## Warn
 Open index.html and then open the console to see your stats when the game is over.
 
-### Options
+## Options
 You can modify the size of the screen or tile capacity by using: 
 ```javascript
 //Example , (4:7 ratio is the best btw for w:h)
