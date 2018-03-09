@@ -22,4 +22,4 @@ config.tile.width = config.screen.width / config.screen.tileCapacity.forWidth;
 config.tile.height = config.screen.height / config.screen.tileCapacity.forHeight;
 config.tile.unclickableKeyColor = 255;  //White
 config.tile.clickableKeyColor = 0;      //Black
-config.tile.clickedKeyColor = 100;      //Gray
+config.tile.clickedKeyColor = 150;      //Gray
