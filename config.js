@@ -7,9 +7,11 @@ const config = {
 };
 
 //Game
-config.game.scrollSpeed = 1;
-config.game.pointPerScore = 1;
 config.game.isPaused = true;
+config.game.scrollSpeed = 2;
+config.game.pointPerClick = 1;
+config.game.score = 0
+config.game.scrollValue = 0.05
 
 //Screen
 config.screen.width = 400;
