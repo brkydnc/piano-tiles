@@ -16,3 +16,32 @@ function generateArray() {
     };
     return shuffle(arr);
 };
+
+function remoteGame(key) {
+    if (key == "P" && config.game.isPaused) {
+        config.game.isPaused = false;
+    } else if (key == "P" && !config.game.isPaused) {
+        config.game.isPaused = true;
+    } else if (keyCode === 38) {
+        config.game.scrollSpeed += 1
+    } else if (keyCode === 40) {
+        config.game.scrollSpeed -= 1
+    }
+ }
+
+function clickTile(){
+    ROWS.forEach(row => {
+        row.tiles.forEach(tile => {
+            if(tile.posX < mouseX && 
+               (tile.posX + config.tile.width) > mouseX && 
+               tile.posY < mouseY && 
+               (tile.posY + config.tile.height) > mouseY &&
+               tile.isClickable){
+                   tile.isClickable = false;
+                   tile.isClicked = true;
+                   config.game.score += config.game.pointPerClick;
+                   config.game.scrollSpeed += config.game.scrollValue 
+               };
+        });
+    });
+}
