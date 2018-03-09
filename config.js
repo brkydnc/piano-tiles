@@ -10,16 +10,18 @@ const config = {
 config.game.isPaused = true;
 config.game.isStarted = false;
 config.game.isOver = false;
-config.game.scrollSpeed = 0;
-config.game.pointPerClick = 1;
 config.game.score = 0;
-config.game.scrollValue = 0.05
+config.game.pointPerClick = 1;
+config.game.initialScrollSpeed = 2
+config.game.scrollSpeed = 0;
+config.game.scrollValue = 0.05;
 
 //Screen
 config.screen.width = 400;
 config.screen.height = 700;
 config.screen.tileCapacity.forWidth = 5;
 config.screen.tileCapacity.forHeight = 5;
+config.screen.imaginaryRowCount = 2;
 
 //Tile
 config.tile.width = config.screen.width / config.screen.tileCapacity.forWidth;

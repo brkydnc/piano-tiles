@@ -1,7 +1,7 @@
 //All modifies and other things will go here
 const ROWS = [];
 var lastRow;
-for (y = -2; y < config.screen.tileCapacity.forHeight; y++) {
+for (y = -config.screen.imaginaryRowCount; y < config.screen.tileCapacity.forHeight; y++) {
     ROWS.push(new Row(y * config.tile.height, generateArray()));
 }
 updateLast(ROWS.length);

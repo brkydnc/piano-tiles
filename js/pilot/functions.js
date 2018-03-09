@@ -86,7 +86,7 @@ function checkIfIn(x, y, tx, ty, sx, sy) {
 function startGame() {
     config.game.isStarted = true;
     config.game.isPaused = false;
-    config.game.scrollSpeed = 2;
+    config.game.scrollSpeed = config.game.initialScrollSpeed;
 }
 
 var printCount = 0;
