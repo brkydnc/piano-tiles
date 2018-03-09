@@ -1,16 +1,18 @@
 const config = {
-    screen:{
-        tileCapacity:{}
+    screen: {
+        tileCapacity: {}
     },
-    game:{},
-    tile:{}
+    game: {},
+    tile: {}
 };
 
 //Game
 config.game.isPaused = true;
-config.game.scrollSpeed = 2;
+config.game.isStarted = false;
+config.game.isOver = false;
+config.game.scrollSpeed = 0;
 config.game.pointPerClick = 1;
-config.game.score = 0
+config.game.score = 0;
 config.game.scrollValue = 0.05
 
 //Screen
