@@ -25,7 +25,7 @@ config.tile.clickedKeyColor = "magenta";
 You can also change initial scroll speed or increasing ratio or etc. by using:
 ```javascript
 //Example
-config.game.pointPerClick = 84363049528189475386434692049835743065827683469346;
+config.game.pointPerClick = 43948;
 config.game.initialScrollSpeed = 25;
-config.game.scrollValue = -5; //Negative reals will make it reversed
+config.game.scrollValue = 5;
 ```
