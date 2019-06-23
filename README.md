@@ -1,5 +1,5 @@
 # Unofficial Piano Tiles 
-Piano tiles with p5.js
+Piano tiles using p5.js
 
 ## Options
 You can modify the size of the screen or tile capacity by using: 
